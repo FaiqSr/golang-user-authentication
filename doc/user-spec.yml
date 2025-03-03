@@ -4,7 +4,7 @@ info:
   version: 1.0.0
   description: API untuk mengelola user
   contact:
-    name: Faiq Subhi Ramadlan
+    name: Faiq
     email: faiqsr13@gmail.com
     url: https://github.com/FaiqSr
 paths:
