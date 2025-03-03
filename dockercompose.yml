@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  golang-auth:
+    container_name: golang-auth
+    image: golang:1.22-alphine
+  mysql:
+    container_name: mysql-auth
+    image: mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD:
+      - MYSQL_USER: root
+    restart: always
+
+  redis:
+    container_name: redis-auth
+    image: redis
+    restart: always
