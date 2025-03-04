@@ -1,3 +1,12 @@
+## Framework
+echo
+
+## Library
+go-validator
+redis
+go-mysql-driver
+
+
 ### install semua library
 
 ```bash
