@@ -2,9 +2,9 @@
 echo
 
 ## Library
-go-validator
-redis
-go-mysql-driver
+- go-validator
+- redis
+- go-mysql-driver
 
 
 ### install semua library
